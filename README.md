@@ -15,7 +15,7 @@ Trong bài viết này tôi sẽ hướng dẫn các bạn mục thứ 3: "Giám
 
 - NTP (có thể monitor bằng Shinken với phương pháp linux-ssh)
 - Mysql (có thể monitor bằng Zabbix)
-- Rabbitmq (bổ sung sau)
+- Rabbitmq: Tham khảo tại http://www.thegeekstuff.com/2013/12/nagios-plugins-rabbitmq/
 - Keystone
 - Glance
 - Nova
