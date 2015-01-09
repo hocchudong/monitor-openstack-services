@@ -129,9 +129,9 @@ Các file cấu hình host:
 
 ```sh
 cd /etc/shinken/hosts/
-wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/blob/master/shinken-config/hosts/controller.cfg
-wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/blob/master/shinken-config/hosts/network.cfg
-wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/blob/master/shinken-config/hosts/compute1.cfg
+wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/master/shinken-config/hosts/controller.cfg
+wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/master/shinken-config/hosts/network.cfg
+wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/master/shinken-config/hosts/compute1.cfg
 ```
 
 Sau đó bạn chỉ cần sửa 3 file này, sửa dòng `address` thành IP của máy chủ OpenStack tương ứng.
@@ -140,9 +140,9 @@ Các file cấu hình service
 
 ```sh
 cd /etc/shinken/hosts/
-wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/blob/master/shinken-config/services/controller.cfg
-wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/blob/master/shinken-config/services/network.cfg
-wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/blob/master/shinken-config/services/compute1.cfg
+wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/master/shinken-config/services/controller.cfg
+wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/master/shinken-config/services/network.cfg
+wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/master/shinken-config/services/compute1.cfg
 ```
 
 Restart lại shinken:
