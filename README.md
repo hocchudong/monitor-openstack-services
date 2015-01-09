@@ -150,4 +150,7 @@ Restart lại shinken:
 `service shinken restart`
 
 ##Enjoy!
-<img src=http://i.imgur.com/azi7OUE.png width="60%" height="60%" border="1">
+<img src=http://i.imgur.com/azi7OUE.png border="1">
+
+##Thông tin thêm:
+- Bạn có thể tham khảo cách alert với Shinken bằng email [tại - mục 3.1](https://github.com/hocchudong/shinken-2.0) hoặc [sms](https://github.com/hocchudong/shinken-2.0/blob/master/Huong%20dan/sms-alert.md)
