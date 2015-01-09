@@ -139,7 +139,7 @@ Sau đó bạn chỉ cần sửa 3 file này, sửa dòng `address` thành IP c�
 Các file cấu hình service
 
 ```sh
-cd /etc/shinken/hosts/
+cd /etc/shinken/services/
 wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/master/shinken-config/services/controller.cfg
 wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/master/shinken-config/services/network.cfg
 wget https://raw.githubusercontent.com/hocchudong/monitor-openstack-services/master/shinken-config/services/compute1.cfg
